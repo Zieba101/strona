@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>finn</title>
+	<meta name="description" content="Camino" />
+	<meta name="keywords" content="a komu to potrzebne?" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<style>
+	#container
+	{
+		
+		font-family: Comic Sans MS, Comic Sans, cursive;
+		width: 1100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#logo
+	{
+		background-color: #50C878;
+		color: white;
+		text-align: center;
+		padding: 15px;
+	}
+	#nav
+	{
+		float: left;
+		background-color: lightgray;
+		width: 120px;
+		min-height: 1300px;
+		padding: 10px;
+	}
+	#content
+	{
+		float: left;
+		padding: 20px;
+		width: 640px;
+	}
+	#ad
+	{
+		float: left;
+		width: 260px;
+		min-height: 1300px;
+		padding: 10px;
+		background-color: lightgray;
+	}
+	#footer
+	{
+		clear: both;
+		background-color: #50C878;
+		color: white;
+		text-align: center;
+		padding: 20px;
+	}	
+	#div
+	{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	}
+	</style>
+
+</head>
+
+<body>
+
+	<div id="container">
+	
+		<div id="logo">
+			 <h1> FINN MARTENS </h1>
+		</div>
+	
+		<div id="nav">
+			characters: <br />
+			<a href="tvp.html"> finn</a> <br />
+			<a href="iceking.html"> ice king </a> <br />
+			<a href="MARCELINE.html"> marceline  </a> <br /><br /> <br />
+		</div>
+		
+		<div id="content">
+			<h3>finn mertens</h3>
+			<center>Jak na załączonym obrazku
+			</center>
+					<center><img src="finn.jpg" width="240" height="477" /><br /></center>
+			<center><i>“Finn to zwariowany dzieciak, który chce zostać bohaterem. Może nie wygląda na twardziela, ale pokona każde zło, jakie wejdzie mu w drogę.”</i> </center>
+			
+		</div>
+		<div id="ad">
+				<center></center> <br />
+				<img id = "aaa" src="tree.png" width="260" height="1200" /><br />
+		
+		</div>
+		
+		<div id="footer">
+			<a href="https://www.wcoforever.com/anime/adventure-time">Link do serialu</a>
+		</div>
+	
+	</div>
+	        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+     $("#container").hide();
+        $("#aaa").hide();
+        $("#container").slideDown(1000, function() {
+						$("#aaa").slideDown(1000);  
+        });
+    
+            
+        </script>
+
+</body>
+</html>
